@@ -6,12 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="tweet.txt">
+    <None Remove="tweet.txt" />
+    <None Remove="user.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="tweet.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="user.txt">
+    </Content>
+    <Content Include="user.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
   </ItemGroup>
 
 </Project>
