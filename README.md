@@ -15,5 +15,6 @@ Twitter like feed from input 2 input files.
 3. From command line you can browse to the AG.TwitterFeed\bin\debug\netcoreapp2.0 or AG.TwitterFeed\bin\release\netcoreapp2.0 folder.
 4. Run the app with the following command: dotnet.exe AG.TwitterFeed.dll user.txt tweet.txt
 
-**Results should look like this***
+**Results should look like this**
+
 <img src="https://github.com/rizaanlakay/TwitterFeed/blob/master/screenshot.jpg">
