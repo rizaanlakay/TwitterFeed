@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AG.TwitterFeed": {
+      "commandName": "Project",
+      "commandLineArgs": "user.txt tweet.txt"
+    }
+  }
+}
