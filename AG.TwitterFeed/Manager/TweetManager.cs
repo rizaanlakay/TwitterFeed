@@ -109,14 +109,18 @@ namespace AG.TwitterFeed.Manager
             ImportUserFile();
 
             ImportTweetFile();
+        }
 
+        public void PrintUserTweets(bool printName, bool includeFollowerTweets)
+        {
             this.Users.Sort();
 
             foreach (User u in this.Users)
             {
-                u.PrintTweets(true, true);
+                u.PrintTweets(printName, includeFollowerTweets);
             }
         }
+
         public void ImportUserFile()
         {
             // Assuming that all users are deleted with file passed in.

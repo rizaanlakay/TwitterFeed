@@ -28,6 +28,8 @@ namespace AG.TwitterFeed
 
                 TweetManager tweetManager = TweetManager.GetInstance;
                 tweetManager.ImportFiles(args[0], args[1]);
+                // Print user tweets. Input params for showing user name and to include tweets of following users.
+                tweetManager.PrintUserTweets(true, true);
             }
             catch (Exception ex)
             {
