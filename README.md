@@ -11,4 +11,6 @@ Twitter like feed from input 2 input files.
 
 **Running the project:**
 1. Requires a pc with .Net Core 2.0
-2. 
+2. Build the project in Debug or Release mode
+3. From command line you can browse to the AG.TwitterFeed\bin\debug\netcoreapp2.0 or AG.TwitterFeed\bin\release\netcoreapp2.0 folder.
+4. Run the app with the following command: dotnet.exe AG.TwitterFeed.dll user.txt tweet.txt
